@@ -81,10 +81,10 @@ aside{
 #menuToggle{
   display: none;
 }
-a:link{
+article a:link{
   color : red;
 }
-a:visited{
+article a:visited{
   color : #a22700;
 }
 footer a:link, footer a:visited {
