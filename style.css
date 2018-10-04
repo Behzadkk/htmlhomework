@@ -20,6 +20,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333333;
+    font-size: 0.9em;
 }
 
 li {
@@ -80,7 +81,7 @@ aside{
 }
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 560px){
   .largeNav {
     display: none;
   }
@@ -167,7 +168,7 @@ aside{
   #menuToggle span:nth-last-child(2)
   {
   transform-origin: 0% 100%;
-}
+  }
 
   /* 
    * Transform all the slices of hamburger
@@ -232,4 +233,23 @@ aside{
     transform: none;
   }
    /*hamburger end*/
+}
+@media screen and (min-width: 561px){
+  main{
+    display: flex;
+  }
+  aside{
+    max-width: 27%;
+  }
+}
+
+@media screen and (min-width: 981px){
+  .articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  article{
+    width: 45%
+  }
 }
